@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://media.istockphoto.com/id/541822704/photo/fresh-fruits-and-vegetables-in-the-basket.jpg?s=612x612&w=0&k=20&c=EvouNfs7dVG-YBWjnxHNbV3ofmWc_i9LLbFX-WTyVjM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+h1 {
+    padding-left: 3%;
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 3%;
+}
+
+ul>li {
+    font-size: 2vmax;
+}
+.page1-main{
+    height: 90%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(136, 97, 97);
+    background-image: url(https://images.unsplash.com/photo-1508906717407-36744fdad653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW9kZW4lMjBnaXJsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    height: 50%;
+    width: 40%;
+    /* position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media (max-width:400px){
+    .main {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(https://media.istockphoto.com/id/541822704/photo/fresh-fruits-and-vegetables-in-the-basket.jpg?s=612x612&w=0&k=20&c=EvouNfs7dVG-YBWjnxHNbV3ofmWc_i9LLbFX-WTyVjM=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .page1 {
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+    }
+    nav {
+        height: 10%;
+        width: 100%;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    h1 {
+        padding-left: 3%;
+    }
+    
+    ul {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        padding-right: 3%;
+    }
+    
+    ul>li {
+        font-size: 10px;
+    }
+    .page1-main{
+        height: 90%;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left{
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+        color: aliceblue;
+    }
+    p{
+        color: aliceblue;
+        text-align: center;
+    }
+    .right{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(34, 205, 102);
+    }
+    .img1{
+        height: 50%;
+        width: 40%;
+        /* position: absolute;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    
+}
